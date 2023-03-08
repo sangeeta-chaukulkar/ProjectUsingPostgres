@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture upload</title>
+    <link rel="stylesheet" href="../signup/style.css">
+</head>
+<body>
+    <h2>Profile Picture upload</h2>
+    <div class="sign-up-form">
+
+        <a href="../../updateUserDetails/updateUser.html">Update user data</a>
+            <form id="uploadfileform" enctype="multipart/form-data">
+            <div>
+             <input type="file" class="form-control"  id="uploadFile" name="profilePictureName"/>
+             </div>
+             <button type="submit" id="imgupload">Submit</button>
+            </form>
+            
+    </div>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+    <script src="imageupload.js"></script>
+</body>
+</html>
